@@ -5,7 +5,7 @@ function App() {
   const [name, setName] = useState('');
   const [description, setDescription] = useState('');
 
-  const API_URL = 'http://localhost:5000/api/items';
+  const API_URL = 'https://react-training-45e0.onrender.com/api/items'; // Replace with your actual API endpoint
 
   // Fetch existing items from MongoDB Atlas when component loads
   useEffect(() => {
